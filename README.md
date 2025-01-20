@@ -83,5 +83,5 @@ Her türlü geri bildirim ve önerileriniz için bizimle iletişime geçebilirsi
 **Geliştirici 2**  
 *Ad*: Emirhan  
 *Soyad*: Utaş  
-*e-mail*: emirhanutas@gmail.com  
+*e-mail*: 132130034@ogr.uludag.edu.tr 
 *Tel No*: +905345805434
