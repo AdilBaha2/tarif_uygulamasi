@@ -64,7 +64,7 @@ Kullanıcı tarafından eklenen kategoriler ile birlikte liste.
 
 ## Demo
 Uygulamanın çalışma şeklini görmek için aşağıdaki YouTube bağlantısına tıklayın:  
-[YouTube Demo](https://youtu.be/demo-link)
+[YouTube Demo]([https://youtu.be/demo-link](https://www.youtube.com/watch?v=_k8iKfcHAus))
 
 ## Geliştiriciler
 - **Geliştirici 1**: [GitHub](#)
