@@ -12,43 +12,43 @@ Mutfak Defteri, kullanıcıların yemek tariflerini kaydedip düzenleyebileceği
 ## Ekran Görüntüleri
 
 ### Ana Sayfa
-![Ana Sayfa](./screenshots/Screenshot_20250120_150640.jpg)
+<img src="./screenshots/Screenshot_20250120_150640.jpg" alt="Ana Sayfa" width="400"/>
 Uygulamanın giriş ekranıdır. Hazır tariflere veya kullanıcı tariflerine erişim sağlayabilirsiniz.
 
 ### Hazır Tarifler
-![Hazır Tarifler](./screenshots/Screenshot_20250120_150649.jpg)
+<img src="./screenshots/Screenshot_20250120_150649.jpg" alt="Hazır Tarifler" width="400"/>
 Bu ekran, uygulamanın sunduğu hazır tarifleri kategori bazlı listelemektedir.
 
 ### Çorba Kategorisi
-![Çorba Kategorisi](./screenshots/Screenshot_20250120_150704.jpg)
+<img src="./screenshots/Screenshot_20250120_150704.jpg" alt="Çorba Kategorisi" width="400"/>
 Çorba kategorisine ait tariflerin listelendiği ekran.
 
 ### Tarif Detayı
-![Tarif Detayı](./screenshots/Screenshot_20250120_150713.jpg)
+<img src="./screenshots/Screenshot_20250120_150713.jpg" alt="Tarif Detayı" width="400"/>
 Seçilen tarifin detaylarını, malzemelerini ve hazırlanış aşamalarını görüntüleyebilirsiniz.
 
 ### Benim Tariflerim
-![Benim Tariflerim](./screenshots/Screenshot_20250120_150734.jpg)
+<img src="./screenshots/Screenshot_20250120_150734.jpg" alt="Benim Tariflerim" width="400"/>
 Kullanıcıların kendi ekledikleri tariflerin bulunduğu ekran.
 
 ### Tarif Ekle
-![Tarif Ekle](./screenshots/Screenshot_20250120_150923.jpg)
+<img src="./screenshots/Screenshot_20250120_150923.jpg" alt="Tarif Ekle" width="400"/>
 Yeni bir tarif eklemek için kullanılacak ekran. Tarif adı, malzemeler ve hazırlık aşamaları eklenebilir.
 
 ### Tarif Listesi
-![Tarif Listesi](./screenshots/Screenshot_20250120_151026.jpg)
+<img src="./screenshots/Screenshot_20250120_151026.jpg" alt="Tarif Listesi" width="400"/>
 Eklenmiş tariflerin listelendiği ekran. Tarifler üzerinde düzenleme ve silme işlemleri yapılabilir.
 
 ### Tarif Detayı (Kullanıcı Tarifi)
-![Tarif Detayı](./screenshots/Screenshot_20250120_151034.jpg)
+<img src="./screenshots/Screenshot_20250120_151034.jpg" alt="Tarif Detayı" width="400"/>
 Kullanıcı tarafından eklenmiş bir tarifin detayları.
 
 ### Kategori Ekle
-![Kategori Ekle](./screenshots/Screenshot_20250120_151101.jpg)
+<img src="./screenshots/Screenshot_20250120_151101.jpg" alt="Kategori Ekle" width="400"/>
 Yeni bir kategori oluşturmak için kullanılan ekran. Kategori adı, ikon ve renk seçimi yapılabilir.
 
 ### Güncellenmiş Kategoriler
-![Güncellenmiş Kategoriler](./screenshots/Screenshot_20250120_151108.jpg)
+<img src="./screenshots/Screenshot_20250120_151108.jpg" alt="Güncellenmiş Kategoriler" width="400"/>
 Kullanıcı tarafından eklenen kategoriler ile birlikte liste.
 
 ## Teknolojiler
