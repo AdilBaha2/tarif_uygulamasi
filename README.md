@@ -74,12 +74,12 @@ Her türlü geri bildirim ve önerileriniz için bizimle iletişime geçebilirsi
 
 ###İletişim Bilgileri
 **Geliştirici 1**
-*Ad*: Adil Baha
-*Soyad*: Şahin
-*e-mail*: adilbaha54@gmail.com
-*Tel No*: +905511748211
+-*Ad*: Adil Baha
+-*Soyad*: Şahin
+-*e-mail*: adilbaha54@gmail.com
+-*Tel No*: +905511748211
 **Geliştirici 2**
-*Ad*: Emirhan
-*Soyad*: Utaş
-*e-mail*: emirhanutas@gmail.com
-*Tel No*: +905345805434
+-*Ad*: Emirhan
+-*Soyad*: Utaş
+-*e-mail*: emirhanutas@gmail.com
+-*Tel No*: +905345805434
