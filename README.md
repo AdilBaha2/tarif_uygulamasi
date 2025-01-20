@@ -72,7 +72,7 @@ Uygulamanın çalışma şeklini görmek için aşağıdaki YouTube bağlantıs�
 
 Her türlü geri bildirim ve önerileriniz için bizimle iletişime geçebilirsiniz!
 
-##İletişim Bilgileri
+## İletişim Bilgileri
 **Geliştirici 1**
 -*Ad*: Adil Baha
 -*Soyad*: Şahin
