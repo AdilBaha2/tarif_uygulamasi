@@ -23,7 +23,7 @@ class AnaSayfa extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const Text(
-                'Mutfak Defteri',
+                'MUTFAK DEFTERİ',
                 style: TextStyle(
                   fontSize: 32.0,
                   fontWeight: FontWeight.bold,
