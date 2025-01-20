@@ -24,7 +24,7 @@ class AnaSayfa extends StatelessWidget {
             children: [
               // Uygulama Başlığı
               const Text(
-                'Tarif Uygulaması',
+                'Mutfak Defteri',
                 style: TextStyle(
                   fontSize: 32.0,
                   fontWeight: FontWeight.bold,
