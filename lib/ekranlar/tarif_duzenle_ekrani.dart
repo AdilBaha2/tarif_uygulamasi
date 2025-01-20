@@ -38,7 +38,6 @@ class _TarifDuzenleEkraniState extends State<TarifDuzenleEkrani> {
 
   @override
   void dispose() {
-    // Controller'ları temizle
     _adController.dispose();
     _malzemelerController.dispose();
     _hazirlanisController.dispose();
@@ -57,7 +56,7 @@ class _TarifDuzenleEkraniState extends State<TarifDuzenleEkrani> {
         _hazirlanisController.text,
         _onerilerController.text,
       );
-      Navigator.pop(context); // Düzenleme ekranını kapat
+      Navigator.pop(context);
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Lütfen tüm alanları doldurun!')),
@@ -78,7 +77,6 @@ class _TarifDuzenleEkraniState extends State<TarifDuzenleEkrani> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Tarif Adı
               const Text('Tarif Adı:', style: TextStyle(fontSize: 18)),
               const SizedBox(height: 8),
               TextField(
@@ -89,8 +87,6 @@ class _TarifDuzenleEkraniState extends State<TarifDuzenleEkrani> {
                 ),
               ),
               const SizedBox(height: 16),
-
-              // Malzemeler
               const Text('Malzemeler:', style: TextStyle(fontSize: 18)),
               const SizedBox(height: 8),
               TextField(
@@ -102,8 +98,6 @@ class _TarifDuzenleEkraniState extends State<TarifDuzenleEkrani> {
                 ),
               ),
               const SizedBox(height: 16),
-
-              // Hazırlık Aşamaları
               const Text('Hazırlık Aşamaları:', style: TextStyle(fontSize: 18)),
               const SizedBox(height: 8),
               TextField(
@@ -115,8 +109,6 @@ class _TarifDuzenleEkraniState extends State<TarifDuzenleEkrani> {
                 ),
               ),
               const SizedBox(height: 16),
-
-              // Öneriler
               const Text('En Son Öneri:', style: TextStyle(fontSize: 18)),
               const SizedBox(height: 8),
               TextField(
@@ -128,8 +120,6 @@ class _TarifDuzenleEkraniState extends State<TarifDuzenleEkrani> {
                 ),
               ),
               const SizedBox(height: 16),
-
-              // Güncelle Butonu
               Center(
                 child: ElevatedButton(
                   onPressed: _tarifiGuncelle,

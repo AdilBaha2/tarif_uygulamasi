@@ -22,7 +22,6 @@ class AnaSayfa extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // Uygulama Başlığı
               const Text(
                 'Mutfak Defteri',
                 style: TextStyle(
@@ -33,7 +32,6 @@ class AnaSayfa extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 40.0),
-              // Hazır Tarifler Butonu
               _buildButton(
                 context,
                 label: 'Hazır Tarifler',
@@ -49,7 +47,6 @@ class AnaSayfa extends StatelessWidget {
                 },
               ),
               const SizedBox(height: 20.0),
-              // Benim Tariflerim Butonu
               _buildButton(
                 context,
                 label: 'Benim Tariflerim',

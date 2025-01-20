@@ -10,7 +10,6 @@ class KategoriEkleEkrani extends StatefulWidget {
 class _KategoriEkleEkraniState extends State<KategoriEkleEkrani> {
   final TextEditingController _isimController = TextEditingController();
 
-  // İkonlar ve renkler için dinamik listeler
   final List<IconData> ikonlar = [
     Icons.soup_kitchen,
     Icons.restaurant,
@@ -33,8 +32,8 @@ class _KategoriEkleEkraniState extends State<KategoriEkleEkrani> {
     Colors.teal,
   ];
 
-  IconData _secilenIkon = Icons.category; // Varsayılan ikon
-  Color _secilenRenk = Colors.grey; // Varsayılan renk
+  IconData _secilenIkon = Icons.category;
+  Color _secilenRenk = Colors.grey;
 
   void _ikonSec() {
     showDialog(
@@ -42,10 +41,10 @@ class _KategoriEkleEkraniState extends State<KategoriEkleEkrani> {
       builder: (context) => AlertDialog(
         title: const Text('Bir ikon seçin'),
         content: SizedBox(
-          height: 200, // GridView yüksekliği
+          height: 200,
           child: GridView.builder(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 4, // Kaç sütun
+              crossAxisCount: 4,
               crossAxisSpacing: 8.0,
               mainAxisSpacing: 8.0,
             ),
@@ -57,7 +56,7 @@ class _KategoriEkleEkraniState extends State<KategoriEkleEkrani> {
                   setState(() {
                     _secilenIkon = ikonlar[index];
                   });
-                  Navigator.pop(context); // Dialogu kapat
+                  Navigator.pop(context);
                 },
               );
             },
@@ -73,10 +72,10 @@ class _KategoriEkleEkraniState extends State<KategoriEkleEkrani> {
       builder: (context) => AlertDialog(
         title: const Text('Bir renk seçin'),
         content: SizedBox(
-          height: 200, // GridView yüksekliği
+          height: 200,
           child: GridView.builder(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 4, // Kaç sütun
+              crossAxisCount: 4,
               crossAxisSpacing: 8.0,
               mainAxisSpacing: 8.0,
             ),
@@ -87,7 +86,7 @@ class _KategoriEkleEkraniState extends State<KategoriEkleEkrani> {
                   setState(() {
                     _secilenRenk = renkler[index];
                   });
-                  Navigator.pop(context); // Dialogu kapat
+                  Navigator.pop(context);
                 },
                 child: Container(
                   decoration: BoxDecoration(

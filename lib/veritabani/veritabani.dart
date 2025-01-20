@@ -4,19 +4,15 @@ import 'package:path/path.dart';
 class Veritabani {
   static final Veritabani _instance = Veritabani._internal();
   Database? _database;
-
   factory Veritabani() {
     return _instance;
   }
-
   Veritabani._internal();
-
   Future<Database> get database async {
     if (_database != null) return _database!;
     _database = await _initDatabase();
     return _database!;
   }
-
   Future<Database> _initDatabase() async {
     final databasePath = await getDatabasesPath();
     final path = join(databasePath, 'tarif_uygulamasi.db');
@@ -27,7 +23,6 @@ class Veritabani {
       onCreate: _onCreate,
     );
   }
-
   Future<void> _onCreate(Database db, int version) async {
     await db.execute('''
       CREATE TABLE tarifler (
@@ -41,8 +36,6 @@ class Veritabani {
     ''');
     print('Veritabanı oluşturuldu.');
   }
-
-  // Tarif ekleme
   Future<int> tarifEkle(String kategori, String ad, String malzemeler, String hazirlanis, String oneriler) async {
     try {
       final db = await database;
@@ -55,11 +48,9 @@ class Veritabani {
       });
     } catch (e) {
       print('Tarif ekleme sırasında hata: $e');
-      return -1; // Hata durumunda -1 döner
+      return -1;
     }
   }
-
-  // Tarifleri kategoriye göre getir
   Future<List<Map<String, dynamic>>> tarifleriGetir(String kategori) async {
     if (kategori.isEmpty) {
       throw ArgumentError('Kategori boş olamaz.');
@@ -73,8 +64,6 @@ class Veritabani {
     print('Kategoriye göre getirilen tarifler: $result');
     return result;
   }
-
-  // Tarif güncelleme
   Future<int> tarifGuncelle(
       int id, String yeniAd, String yeniMalzemeler, String yeniHazirlanis, String yeniOneriler) async {
     try {
@@ -92,11 +81,9 @@ class Veritabani {
       );
     } catch (e) {
       print('Tarif güncelleme sırasında hata: $e');
-      return -1; // Hata durumunda -1 döner
+      return -1;
     }
   }
-
-  // Tarif silme
   Future<int> tarifSil(int id) async {
     try {
       final db = await database;
@@ -107,7 +94,7 @@ class Veritabani {
       );
     } catch (e) {
       print('Tarif silme sırasında hata: $e');
-      return -1; // Hata durumunda -1 döner
+      return -1;
     }
   }
 }

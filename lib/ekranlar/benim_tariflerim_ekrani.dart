@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'kategori_ekrani.dart';
-import 'kategori_ekle_ekrani.dart'; // Yeni kategori ekleme ekranı
+import 'kategori_ekle_ekrani.dart';
 
 class BenimTariflerimEkrani extends StatefulWidget {
   const BenimTariflerimEkrani({super.key});
@@ -10,7 +10,6 @@ class BenimTariflerimEkrani extends StatefulWidget {
 }
 
 class _BenimTariflerimEkraniState extends State<BenimTariflerimEkrani> {
-  // Kategoriler Listesi
   final List<Map<String, dynamic>> kategoriler = [
     {
       'kategoriAdi': 'Çorbalar',
@@ -86,9 +85,9 @@ class _BenimTariflerimEkraniState extends State<BenimTariflerimEkrani> {
 }
 
 class KategoriKart extends StatelessWidget {
-  final String kategoriAdi; // Kategori ismi
-  final IconData ikon; // Kategori simgesi
-  final Color renk; // Kategori simge rengi
+  final String kategoriAdi;
+  final IconData ikon;
+  final Color renk;
 
   const KategoriKart({
     super.key,
@@ -101,9 +100,9 @@ class KategoriKart extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       margin: const EdgeInsets.symmetric(vertical: 8.0),
-      elevation: 6.0, // Kart gölgesi
+      elevation: 6.0,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16.0), // Yuvarlatılmış kenarlar
+        borderRadius: BorderRadius.circular(16.0),
       ),
       child: ListTile(
         leading: CircleAvatar(

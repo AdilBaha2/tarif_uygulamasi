@@ -18,7 +18,6 @@ class _TarifEkleEkraniState extends State<TarifEkleEkrani> {
 
   @override
   void dispose() {
-    // Bellek sızıntısını önlemek için controller'ları temizliyoruz
     _adController.dispose();
     _malzemelerController.dispose();
     _hazirlanisController.dispose();
@@ -38,18 +37,16 @@ class _TarifEkleEkraniState extends State<TarifEkleEkrani> {
           _hazirlanisController.text,
           _onerilerController.text,
         );
-        Navigator.pop(context); // Başarılı bir şekilde ekrana geri dön
+        Navigator.pop(context);
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text('Tarif başarıyla kaydedildi!')),
         );
       } catch (e) {
-        // Hata durumunda kullanıcıyı bilgilendir
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Bir hata oluştu: $e')),
         );
       }
     } else {
-      // Eksik bilgi uyarısı
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Lütfen tüm alanları doldurun!')),
       );
