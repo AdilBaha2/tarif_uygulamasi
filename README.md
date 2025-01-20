@@ -73,13 +73,15 @@ Uygulamanın çalışma şeklini görmek için aşağıdaki YouTube bağlantıs�
 Her türlü geri bildirim ve önerileriniz için bizimle iletişime geçebilirsiniz!
 
 ## İletişim Bilgileri
-   **Geliştirici 1**
-- *Ad*: Adil Baha
-- *Soyad*: Şahin
-- *e-mail*: adilbaha54@gmail.com
-- *Tel No*: +905511748211
-   **Geliştirici 2**
-- *Ad*: Emirhan
-- *Soyad*: Utaş
-- *e-mail*: emirhanutas@gmail.com
-- *Tel No*: +905345805434
+
+**Geliştirici 1**  
+*Ad*: Adil Baha  
+*Soyad*: Şahin  
+*e-mail*: adilbaha54@gmail.com  
+*Tel No*: +905511748211  
+
+**Geliştirici 2**  
+*Ad*: Emirhan  
+*Soyad*: Utaş  
+*e-mail*: emirhanutas@gmail.com  
+*Tel No*: +905345805434
