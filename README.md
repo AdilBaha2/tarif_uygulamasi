@@ -78,7 +78,7 @@ Her türlü geri bildirim ve önerileriniz için bizimle iletişime geçebilirsi
 - *Soyad*: Şahin
 - *e-mail*: adilbaha54@gmail.com
 - *Tel No*: +905511748211
-*Geliştirici 2**
+**Geliştirici 2**
 - *Ad*: Emirhan
 - *Soyad*: Utaş
 - *e-mail*: emirhanutas@gmail.com
